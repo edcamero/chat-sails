@@ -8,6 +8,12 @@
 module.exports = {
 
   attributes: {
+    autor:{
+      type:'string'
+    },
+    mensaje:{
+      type:'string'
+    }
 
     //  ╔═╗╦═╗╦╔╦╗╦╔╦╗╦╦  ╦╔═╗╔═╗
     //  ╠═╝╠╦╝║║║║║ ║ ║╚╗╔╝║╣ ╚═╗
