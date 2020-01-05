@@ -9,10 +9,12 @@ module.exports = {
 
   attributes: {
     autor:{
-      type:'string'
+      type:'string',
+      required:true
     },
     mensaje:{
-      type:'string'
+      type:'string',
+      required:true
     }
 
     //  ╔═╗╦═╗╦╔╦╗╦╔╦╗╦╦  ╦╔═╗╔═╗
