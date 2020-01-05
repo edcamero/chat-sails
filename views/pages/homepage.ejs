@@ -33,7 +33,7 @@ window.onload=function(){
   //io.sails.url = 'https://localhost:1337';
   
   io.socket.on('create', function gotHelloMessage (data) {
-  console.log('User alert!', data);
+  //console.log('User alert!', data);
   if(data.autor!==undefined){
     var msj=document.getElementById("mensajes");
   msj.innerHTML+="<p><strong>"+data.autor+": </strong> "+data.mensaje+"</p>";
